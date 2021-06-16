@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/congoimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ewd" />
+
+    <TextView
+        android:id="@+id/goodnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congoimage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Level"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goodnews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Completed"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView22"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/congratulation22" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView22"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/congratulation22" />
+
+    <Button
+        android:id="@+id/next_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons_style"
+        android:padding="20dp"
+        android:text="Next Level"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+</RelativeLayout>

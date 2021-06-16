@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Words"
+        android:title="Words" />
+    <item
+        android:id="@+id/Countries"
+        android:icon="@color/blue"
+        android:title="Countries" />
+    <item
+        android:id="@+id/WildLife"
+        android:icon="@color/blue"
+        android:title="Wildlife" />
+    <item
+        android:id="@+id/Fruits"
+        android:icon="@color/blue"
+        android:title="Fruits" />
+    <item
+        android:id="@+id/Vegetables"
+        android:icon="@color/blue"
+        android:title="Vegetables" />
+</menu>
